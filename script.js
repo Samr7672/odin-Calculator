@@ -66,7 +66,7 @@ function grid(){
 
     })
         calculator.appendChild(btn)
-        btn.style.height=`${size/16}px`;
+        btn.style.height=`${size/10}px`;
         btn.style.width=`${size/10}px`;
     }
 }
