@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column; /* This stacks children vertically */
+    align-items: center;    /* This centers the display and calculator horizontally */
+    justify-content: center;
+    min-height: 100vh;      /* Centers the whole thing in the middle of the screen */
+    margin: 0;
+}
+.calculator{
+    display:flex;
+    flex-wrap: wrap;
+    width:640px;
+    
+    gap:20px;
+    
+
+}
+.numbers{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    flex:1 0 15%;
+    height:100px;
+    background-color: chocolate;
+    justify-content: center;
+    border-radius: 10px;
+}
+.display{
+display:flex;
+flex-direction:row;
+justify-content: flex-end;
+text-align: end;
+width:640px;
+ 
+color: #0f0;            
+padding: 10px;
+margin-bottom: 10px;    
+font-size: 32px;
+border-radius: 5px;
+}
+
